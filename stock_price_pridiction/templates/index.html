@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>台灣50大股票AI預測</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+        h1 {
+            text-align: center;
+        }
+    </style>    
+</head>
+<body>
+    <h1>台灣50大股票AI預測</h1>
+    <form action="/" method="post">
+        <div class="search-container">
+            <select name="stock_code" class="search-bar">
+                <option value="2330">台灣積體電路製造(2330) </option>
+                <option value="2454">聯發科技(2454) </option>
+                <option value="2317">鴻海精密工業股份有限公司(2317) </option>
+                <option value="2308">台達電子(2308)</option>
+                <option value="2303">聯華電子(2303) </option>
+                <option value="2891">CTBC Financial Holding Co Ltd(2891) </option>
+                <option value="2881">Fubon Financial Holding Co Ltd(2881) </option>
+                <option value="3711">日月光投資控股股份有限公司(3711)</option>
+                <option value="2412">中華電信(2412)</option>
+                <option value="2886">兆豐金融控股公司(2886)</option>
+                <option value="2882">Cathay Financial Holding Co., Ltd.(2882) </option>
+                <option value="2884">玉山金融控股公司(2884) </option>
+                <option value="1303">南亞塑膠(1303) </option>
+                <option value="1216">統一企業(1216) </option>
+                <option value="2885">元大金融控股公司(2885) </option>
+                <option value="3231">緯創資通(3231) </option>
+                <option value="2002">China Steel Corp(2002) </option>
+                <option value="2357">華碩(2357) </option>
+                <option value="3034">聯詠科技(3034) </option>
+                <option value="2892">第一金融控股(2892) </option>
+                <option value="5880">合作金庫金融控股(5880) </option>
+                <option value="2345">智邦(2345) </option>
+                <option value="1301">台灣塑膠工業股份有限公司(1301) </option>
+                <option value="3008">大立光電(3008) </option>
+                <option value="5871">Chailease Holding Company Ltd(5871) </option>
+                <option value="2301">光寶科技(2301) </option>
+                <option value="3037">欣興電子(3037) </option>
+                <option value="2890">永豐金融控股(2890) </option>
+                <option value="2880">華南金融控股公司(2880) </option>
+                <option value="2327">國巨股份有限公司(2327) </option>
+                <option value="2379">瑞昱半導體(2379) </option>
+                <option value="2207">和泰汽車(2207) </option>
+                <option value="2887">Taishin Financial Holding Co Ltd(2887) </option>
+                <option value="1101">Taiwan Cement Corp(1101) </option>
+                <option value="1326">台灣化學纖維股份有限公司(1326) </option>
+                <option value="2883">China Development Financial Holding Corp(2883) </option>
+                <option value="6669">緯穎科技(6669) </option>
+                <option value="4938">和碩聯合科技(4938) </option>
+                <option value="3045">台灣大哥大(3045) </option>
+                <option value="5876">上海商業儲蓄銀行(5876) </option>
+                <option value="2395">研華股份有限公司(2395) </option>
+                <option value="2603">長榮海運(2603) </option>
+                <option value="2912">統一超商(2912) </option>
+                <option value="4904">遠傳電信(4904) </option>
+                <option value="1590">亞德客國際集團(1590) </option>
+                <option value="2801">彰化商業銀行(2801) </option>
+                <option value="6505">台塑石化(6505) </option>
+                <option value="2408">南亞科技(2408) </option>
+                <option value="9910">豐泰企業(9910) </option>
+                <!-- 添加其他股票代码和名称 -->
+            </select>
+            <input type="submit" value="預測">
+        </div>
+    </form>
+</body>
+</html>
+

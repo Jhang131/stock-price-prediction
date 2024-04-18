@@ -1,0 +1,27 @@
+body {
+    /* 添加背景图片 */
+    background-image: url("https://nai500.com/wp-content/uploads/2022/02/artificial-intelligence-AI.jpg");
+    /* 设置背景图片填充整个页面 */
+    background-size: cover;
+    /* 使背景图片固定不随滚动条滚动 */
+    background-attachment: fixed;
+
+    font-size: 30px;
+}
+
+h1 {
+    color: rgb(54, 190, 214);
+}
+.search-container {
+    text-align: center; /* 将内部内容置中 */
+}
+
+.search-bar {
+    width: 50%; /* 设置下拉菜单的宽度 */
+    padding: 10px; /* 添加内边距以增加样式 */
+    font-size: 16px; /* 设置字体大小 */
+    border: 2px solid #ccc; /* 添加边框 */
+    border-radius: 5px; /* 添加边框圆角 */
+    outline: none; /* 去除默认的选中样式 */
+    /* 添加其他样式，根据需要调整 */
+}

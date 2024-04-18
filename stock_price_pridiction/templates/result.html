@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ stock_code }} 的股票預測结果</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body style="margin-top: 0px;">   
+    <h1>{{ stock_code }} 的股票預測结果</h1>
+    <img src="{{ url_for('static', filename='my_plot' + stock_code + '.png') }}" alt="股票預測圖">
+</body>
+</html>
